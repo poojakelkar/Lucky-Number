@@ -1,0 +1,50 @@
+:root{
+    --primary-dark: #1f2937;
+    --primary-color: #6ee7b7;
+}
+
+h1{
+    text-align: center;
+    color: var(--primary-color);
+}
+ .container{
+     width: 50%;
+     margin: auto;
+ }
+
+ input , label{
+     display: block;
+     margin-top: 0.5rem ;
+     color: var(--primary-color);
+ }
+
+ input{
+     margin-bottom: 0.5rem;
+     width: 100%;
+     color: black;
+ }
+
+ #check{
+     padding: 0.5rem;
+     display: block;
+     margin: 1rem;
+     margin: auto;
+     background-color: var(--primary-color);
+     border: none;
+     
+ }
+
+ #output-box{
+     padding: 1rem;
+     margin-top: 1rem;
+     width: 100%;
+     border-color: var(--primary-color);
+     background-color: var(--primary-dark);
+     color: white;
+     font-size: larger;
+ }
+
+ body{
+     background-color: var(--primary-dark);
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }

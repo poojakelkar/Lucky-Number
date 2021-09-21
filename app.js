@@ -14,7 +14,12 @@ function checkValues(sum, luckyNumber) {
 function checkNumberIsLucky() {
     const dob = dateOfBirth.value;
     const sum = calculateSum(dob);
-    checkValues(sum, luckyNumber.value);
+    if (sum && dob) {
+        debugger
+        checkValues(sum, luckyNumber.value);
+    } else {
+        outputBox.value = "Please enter into Both fields";
+    }
 }
 
 function calculateSum(dob) {
