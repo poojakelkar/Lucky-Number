@@ -29,8 +29,10 @@ h1{
      display: block;
      margin: 1rem;
      margin: auto;
-     background-color: var(--primary-color);
-     border: none;
+     border-color: var(--primary-color);
+     background-color: var(--primary-dark);
+        color: var(--primary-color);
+     border-radius: 0.3rem ;
      
  }
 
